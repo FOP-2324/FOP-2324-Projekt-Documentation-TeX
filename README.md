@@ -20,7 +20,13 @@ Die $\LaTeX$-Vorlage für die Dokumentation des FOP-Projekts im Wintersemester 2
 - Dieses Repository klonen
 - kompilieren z.B. mit `docker run --rm -v $(pwd):/workspace -w /workspace make -j $(nproc)`
 ### Online (Sharelatex der TU-Darmstadt)
-Falls eine Latex-Installation nicht möglich ist, haben wir hier auch eine Sharelatex-Vorlage erstellt: [Sharelatex](https://www.sharelatex.com/project/5f9e3e3f3f3e3e001b3e3e3e)
+Falls eine Latex-Installation nicht möglich ist, haben wir hier auch eine Sharelatex-Vorlage erstellt: [Sharelatex](https://sharelatex.tu-darmstadt.de/project/65c94521794fdbaf65f8a7e4)
+
+Um diese zu nutzen:
+- Einloggen auf [Sharelatex](https://sharelatex.tu-darmstadt.de/)
+- Den Link zum Template öffnen
+- Menu -> Copy Project
+- Projektname eingeben und auf "Create" klicken
 ## Manuelle Installation (nicht empfohlen, aufwendig)
 - Latex-Installation (z.B. MikTex oder TexLive)
 - Installation der [TU-Template](https://github.com/tudace/tuda_latex_templates) und der verwendeten Plugins (inklusive Logo!)
